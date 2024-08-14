@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="Mini portfolio"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini portfolio</title>
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/imagem/foto-perfil.jpg" alt="Foto perfil" />
+        <h1 class="nome">Luiz Fernando Streme Vogel</h1>
+        <h2 class="cargo">Desenvolvedor Backend Júnior</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imagem/sobre.gif" alt="Informações sore mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/imagem/coracao.gif" alt="ícone redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+					<div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+						<div class="descricao">
+              <p>Oi! meu nome é Luiz Fernando, seja bem-vindo(a)!</p>
+
+              <p>
+                Sou uma pessoa apaixonada pela programação desde que eu tinha 14
+                anos. sempre tive o sonho de trabalhar com programaçãoe
+                atualmente comecei a colocar esse sonho em prática estudando
+                <span>HTMLM, CSS e JavaScript</span>. Gosto muito de café (até
+                demais), e meus principais hobbies são adquirir conhecimento
+                sobre carros e jogar.
+              </p>
+            </div>
+          </div>
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a href="" target="_blank" class="curriculo">Currículo</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="linkedin">Linkeding</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="github">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
